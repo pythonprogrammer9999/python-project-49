@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 from structure_games import structute
-from brain_games.games.calc import description, calc_game
+from brain_games.games.gcd import description, gcd_game
 
 
 def main():
-    structute(calc_game, description)
+    structute(gcd_game, description)
 
 
 if __name__ == '__main__':

@@ -4,7 +4,7 @@ from operator import add, sub, mul
 description = 'What is the result of the expression?'
 
 
-def calc():
+def calc_game():
     random1, random2 = randint(0, 100), randint(0, 100)
     random_min, random_max = min(random1, random2), max(random1, random2)
     operators = {'+': add,
