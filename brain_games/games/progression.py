@@ -15,5 +15,3 @@ def progression_game():
     my_list[skipped] = '..'
     question = ' '.join(str(item) for item in my_list)
     return question, str(correct_answer)
-
-

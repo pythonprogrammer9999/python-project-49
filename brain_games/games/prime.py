@@ -2,6 +2,7 @@ from random import randint
 
 description = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
+
 def prime_game():
     question = randint(1, 100)
     counter = 0
@@ -13,4 +14,3 @@ def prime_game():
     else:
         correct_answer = 'no'
     return question, correct_answer
-
