@@ -1,4 +1,6 @@
 import prompt
+
+
 def structute(even, description):
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
@@ -10,6 +12,9 @@ def structute(even, description):
         if user_answer == correct_answer:
             print('Correct!')
         else:
-            print(f"{user_answer} is wrong answer ;(. Correct answer was '{correct_answer}'.\nLet's try again, {name}!)")
+            print(
+                f"{user_answer} is wrong answer ;(.\\"
+                f" Correct answer was '{correct_answer}'.\
+                \nLet's try again, {name}!)")
             exit()
     print(f'Congratulations, {name}!')
