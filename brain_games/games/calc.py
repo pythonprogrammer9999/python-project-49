@@ -12,7 +12,7 @@ def calc_game():
                  '*': mul,
                  }
     operator = choice(list(operators.keys()))
-    question = str(random_max) + operator + str(random_min)
+    question = str(random_max) + ' ' + operator + ' ' + str(random_min)
     correct_answer = str(operators[operator](random_max, random_min))
 
     return question, correct_answer
